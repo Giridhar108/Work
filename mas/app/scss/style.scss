@@ -546,6 +546,11 @@
       color: #faff00;
     }
   }
+  svg {
+    &:hover {
+      transform: scale(0.9);
+    }
+  }
 }
 
 @import 'media';
