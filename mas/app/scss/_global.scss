@@ -1,0 +1,57 @@
+html{
+    box-sizing: border-box;
+    scroll-behavior: smooth; /* плавный скрол */
+}
+
+*,
+*::after
+*::before{
+    box-sizing: border-box;
+}
+
+
+ a {
+     text-decoration: none;
+     color: inherit;
+ }
+
+ ul,
+ li{
+     list-style: none;
+     margin: 0;
+     padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    margin: 0 0;
+    font-family: Segoe Print;
+}
+
+p{
+    margin: 0;
+}
+
+.container{
+    max-width: 1680px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+body{
+    margin: 0 auto;
+    max-width: 100%;
+    min-width: 320px;
+    overflow-x: hidden;
+    position: relative;
+    color: #fff;
+    background-color: #FFF8F8;;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    
+}

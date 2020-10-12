@@ -1,0 +1,65 @@
+@media (max-width: 1235px) {
+  html,
+  body {
+    font-size: 1.4vw;
+  }
+}
+
+@media (max-width: 1295px) {
+  .about__vector {
+    display: none;
+  }
+  .about__right {
+    margin-left: 0;
+  }
+  .views__img {
+    display: none;
+  }
+  .views__slider {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+}
+
+@media (max-width: 1500px) {
+
+  .kind__front {
+    width: 220px;
+    height: 160px;
+  }
+  .kind__front-text {
+    width: 160px;
+    height: 160px;
+  }
+}
+@media (max-width: 1430px) {
+  .kind__back {
+    padding: 3rem;
+  }
+  .kind__front {
+    width: 199px;
+    height: 160px;
+  }
+  .kind__front-text {
+    width: 160px;
+    height: 160px;
+    
+  } 
+  .kind__text {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 1315px) {
+
+  .kind__kinds {
+      width: 71%;
+    } 
+}
+@media (max-width: 1080px) {
+
+  .kind__kinds {
+      width: 84%;
+    } 
+}
